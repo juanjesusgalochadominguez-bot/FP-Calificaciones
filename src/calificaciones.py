@@ -48,3 +48,6 @@ def nota_continua(lista_t, lista_p):
     
     nota_curso = (nota_cuatri1 + nota_cuatri2)/2
     return nota_curso
+
+def genera_mensaje(nota_cuatri1, nota_cuatri2, nota_final):
+    
