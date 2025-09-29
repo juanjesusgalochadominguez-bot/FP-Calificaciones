@@ -48,3 +48,14 @@ print(nota_continua([4.4, 4.9, 5.1, 4.7], [4.6, 4.8]))
 print(nota_continua([4.0, 6.0, 4.0, 3.0], [5.0, None]))
 print(nota_continua([9.0, None, 4.0, 3.0], [4.5, None]))   
 print(nota_continua([9.0, 5.0, 4.0, None], [4.5, None]))
+
+#nota cuat 1=6, nota cuat 2=5, nota final=6 ==>¡Enhorabuena! Has aprobado la asignatura.
+#nota cuat 1=4, nota cuat 2=6, nota final=4 ==>Te debes presentar a convocatoria con el primer cuatrimestre.
+#nota cuat 1=7, nota cuat 2=3, nota final=4 ==>Te debes presentar a convocatoria con el segundo cuatrimestre.
+#nota cuat 1=4, nota cuat 2=3, nota final=3.5 ==>Te debes presentar a convocatoria con los dos cuatrimestres. 
+
+print("Mensajes")
+print(genera_mensaje(6, 5, 6))
+print(genera_mensaje(4, 6, 4))
+print(genera_mensaje(7, 3, 4))
+print(genera_mensaje(4, 3, 3.5))

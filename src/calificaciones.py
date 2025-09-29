@@ -51,3 +51,13 @@ def nota_continua(lista_t, lista_p):
 
 def genera_mensaje(nota_cuatri1, nota_cuatri2, nota_final):
     
+    if nota_cuatri1<5 and nota_cuatri2<5:
+        return "Debes recuperar toda la asignatura."
+    elif nota_cuatri1<5 and nota_cuatri2>=5:
+        return "Debes recuperar el primer cuatrimestre."
+    elif nota_cuatri1>=5 and nota_cuatri2<5:
+        return "Debes recuperar el segundo cuatrimestre."
+    else:
+        return "¡Enhorabuena! Has aprobado la asignatura."
+ 
+ 
